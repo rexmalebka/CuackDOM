@@ -27,7 +27,7 @@ attempt at making DOM music based
 	</cuack>
 	<script src="/cuack.js"></script>
 </body>
-``` 
+```
 
 ## How
 
