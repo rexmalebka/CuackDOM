@@ -1,0 +1,11 @@
+{
+	  "extends": "@tsconfig/recommended/tsconfig.json",
+	  "compilerOptions": {
+		  "preserveConstEnums": true,
+		  "removeComments": true,
+		  "outDir": "build"
+	  },
+	  "lib": [ "es2015", "dom" ],
+	  "include": ["src/**/*"],
+	  "exclude": ["node_modules", "**/*.spec.ts"]
+}
