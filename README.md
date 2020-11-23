@@ -29,10 +29,31 @@ attempt at making DOM music based
 </body>
 ``` 
 
-
 ## How
 
 - DOM Mutation Observers
 - some webaudio framework
 - web workers maybe
 - Codemirror
+
+For the moment I'm writiing this in typescript, using webpack for building to a bundle file for web.
+
+
+1.- For install all the necessary:
+
+`npm install`  
+
+2.- to run this
+
+`npm run dev` 
+
+3.-  to build
+
+`npm run build`
+
+
+- `src/` it's intended for sources
+- `src/lib` it's intended for libraries
+- `app/` it's intended for web app
+- `build/` for webserver built stuff
+
